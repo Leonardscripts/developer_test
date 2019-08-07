@@ -1,0 +1,16 @@
+{
+  "name": "parkfieldgrid",
+  "version": "1.0.0",
+  "description": "Responsive Developer test",
+  "main": "node app.js",
+  "scripts": {
+    "sass": "node-sass -w scss / -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Michael Leonard",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "2.1.0",
+    "node-sass": "4.12.0"
+  }
+}
