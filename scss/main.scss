@@ -93,7 +93,7 @@ img {
   border-radius: 50px;
   border: 2px solid black;
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   align-items: auto;
   justify-content: auto;
   margin: auto;
@@ -101,15 +101,18 @@ img {
 
 .products h4 {
   text-align: center;
+  padding: 5px;
 }
 .products h5 {
   text-align: center;
   color: red;
   text-decoration: line-through;
+  padding: 5px;
 }
 
 .products h6 {
   text-align: center;
+  padding: 5px;
 }
 
 /* Media Queries */
