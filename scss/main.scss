@@ -26,26 +26,16 @@ img {
   justify-content: center;
 }
 
-.wrapper-2 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin-top: 3rem;
-  grid-gap: 40px;
-  background-color: #fff;
-  color: rgb(141, 140, 140);
+.box div > img {
+  background-color: rgb(189, 186, 186);
+  color: #fff;
+  border-radius: 1px;
+  padding: 30px;
+  font-size: 150%;
   align-items: center;
-  justify-content: center;
-
-  .box div > img {
-    background-color: rgb(189, 186, 186);
-    color: #fff;
-    border-radius: 1px;
-    padding: 30px;
-    font-size: 150%;
-    align-items: center;
-    justify-content: auto;
-  }
+  justify-content: auto;
 }
+
 /* Buttons */
 .button {
   display: grid;
@@ -103,7 +93,6 @@ img {
   border-radius: 50px;
   border: 2px solid black;
   text-align: center;
-
   padding: 10px;
   align-items: auto;
   justify-content: auto;
@@ -125,13 +114,11 @@ img {
 
 /* Media Queries */
 @media (max-width: 700px) {
-  .wrapper {
+  .wrapper-1 {
     display: grid;
-    grid-template-columns: (100px 100px 100px 100px);
-    margin-top: 3rem;
-    grid-gap: 10px;
-    background-color: #fff;
-    color: rgb(141, 140, 140);
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 20px;
     align-items: center;
     justify-content: center;
   }
