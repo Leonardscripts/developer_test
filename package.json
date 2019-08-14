@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Developer test",
   "main": "node app.js",
-  "homepage": "https://leonardscripts.github.io/developer_test/",
+  "homepage": "https://leonardscripts.github.io/developer_test",
   "scripts": {
     "sass": "node-sass -w scss / -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
