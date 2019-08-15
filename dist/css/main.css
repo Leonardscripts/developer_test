@@ -45,7 +45,8 @@ img {
   width: auto;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  cursor: pointer; }
+  cursor: pointer;
+  display: inline-block; }
 
 .button1 {
   background-color: white;
